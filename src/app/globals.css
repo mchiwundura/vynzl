@@ -25,3 +25,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.navlink {
+	@apply mx-2 transition-all duration-300 text-xl
+}
+
+.navlink:hover {
+	@apply text-blue-500
+}
